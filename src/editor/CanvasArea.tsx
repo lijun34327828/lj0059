@@ -14,7 +14,7 @@ const MIN_MODULE_H = 60
 function createDefaultContent(type: ModuleType) {
   if (type === 'text') return { title: '标题文字', body: '在此输入科普内容...' }
   if (type === 'specimen') return {
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=insect%20specimen%20illustration%20on%20white%20background&image_size=square',
+    image: '/default-specimen.png',
     name: '标本名称',
     latinName: 'Latin name',
     description: '标本简介...',
